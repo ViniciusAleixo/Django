@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'bootstrapform',
     'clients',
     'home',
 ]
@@ -132,3 +133,7 @@ LOGIN_URL ='/login/'
 LOGIN_REDIRECT_URL = 'person_list'
 
 LOGOUT_REDIRECT_URL = 'home'
+
+STATICFILES_DIRS = [
+ 'statics',
+]
